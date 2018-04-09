@@ -1,0 +1,132 @@
+.home-image{
+	max-width:100%;
+	height:auto;
+	}
+	
+	/* Checker Board Layout*/
+* {
+  box-sizing: border-box;
+}
+
+html, body, div {
+  height: 100%;
+}
+
+.hero-image {
+    background-image: url("../img/home-yacht-top.jpg");
+	background-attachment:fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 {
+    background-image: url("../img/carribean-background.jpg");
+    height: 526px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	display:inline-block;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: white;
+	
+}
+@media only screen and (max-width: 1058px) { .hero-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
+.hero-text2 {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    color: white;
+	width:100%;
+	top:33%
+}
+@media only screen and (max-width: 600px) { .hero-text2 {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
+.button-dark {
+	background: transparent;
+    padding: 9px 36px;
+    border: 2px solid #fff;
+    color: #ffffff;
+}
+.button-light {
+	background: transparent;
+    padding: 9px 36px;
+    border: 2px solid #0f5f80;
+    color: #0f5f80;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.left-half {
+  float:left;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/compass.png");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+
+.right-half {
+  float:right;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/sailor.jpg");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+.left-half-2 {
+  float:left;
+  height:680px;
+  padding: 12%;
+  background-image: url("../img/sunset-sailing.jpg");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+.right-half-2 {
+  float:right;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/compass-2.png");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-color: #ffffff;
+}
