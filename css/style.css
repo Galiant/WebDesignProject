@@ -1,5 +1,5 @@
 .h1 {
-	font-family:raleway
+	font-family:raleway;
 }
 
 .home-image{
@@ -47,6 +47,17 @@ html, body, div {
     color: white;
 	
 }
+@media only screen and (max-width: 1058px) { .hero-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
 .hero-text2 {
     text-align: center;
     vertical-align: middle;
@@ -55,7 +66,17 @@ html, body, div {
 	width:100%;
 	top:33%
 }
-
+@media only screen and (max-width: 600px) { .hero-text2 {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
 .button-dark {
 	background: transparent;
     padding: 9px 36px;
