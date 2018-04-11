@@ -1,0 +1,68 @@
+/* bootstrap fix - to prevent horizontal scroll bar showing*/
+.row { margin:0 } /* required :) */
+/* bootstrap custom */
+.with-errors { 
+	color: red; 
+}
+/* spl** custom code  */
+section .content-limit {  /* override bootstrap container width [if placed in same container] or could set .container instead */
+	width:860px; /* edit */   
+	margin:0 auto;
+}
+
+/* can also have wider for widescreen - can add in mq.css media query say min-value: 1600px  and value here of 1200px ?? */
+/* keeps content contained in smaller area so that easier to read text */
+
+
+
+
+/* no styling yet got for navigation bar */
+/****** temp only styling - not one to be used - get from Ant */
+#mainNav {
+	height:100px;
+	background:rgba(50,0,255, 0.8); /* color mostly blue with transparency of 0.8 ; no transparency then: rgb(50,0,255) */
+	/* can use background instead of background-color but when use can have: background: red url('../image.jpg') no-repeat fixed 40px 100px*/
+	/* only add the ones you want fixed then fixed image, 40px 100px shifts background from left and from top by the desired amount */
+	display:block;
+	width: 100%;
+}
+li { 
+	display:inline-block; 
+	list-style:none; 
+}
+/****** to here only temporary styling */
+
+
+
+
+
+#wrapper { 
+	padding:0; 
+	margin:0; 
+}
+#banner { 
+	margin-top:0px; /* drop down below menu*/
+	background:url('../image/banner-contact-yacht-in-lagoon-temp-only.jpg') no-repeat fixed 0px -20px; /* adjust to fit */ /* remove fixed if wish */
+	background-size: 100%;	
+	min-height:500px;
+}
+#main_content {
+	color:white;
+	background-color:rgba(0,0,0, 0.8);	
+	display:block;
+	min-height: 140px;
+	margin-top: -140px;
+	padding:20px 0px; /*top and bottom 20px*/
+}
+#form_section {
+	padding-top:20px;
+    
+}
+
+/* footer temporary Ant's styling */
+footer {
+	background:rgb(40,40,40);
+	min-height: 100px;
+}
+
+

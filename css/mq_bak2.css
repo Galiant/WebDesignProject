@@ -1,0 +1,34 @@
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+/* media queries start */
+
+@media only screen and (min-width: 1601px){ 
+	section .content-limit {  /* override bootstrap container width or could set .container instead */
+		width:1024px; /* edit */   
+		margin:0 auto;
+	}
+}
+@media only screen and (max-width: 1600px){ 
+	section .content-limit {  /* override bootstrap container width or could set .container instead */
+		width:1024px; /* edit */   
+		margin:0 auto;
+	}
+}
+@media handheld, only screen and (max-width: 767px) { /* or whatever Ant wants as mobile cut-off */
+
+	body {
+		
+	}
+
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+}

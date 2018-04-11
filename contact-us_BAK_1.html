@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- page zooms out if doesn't exist in mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luxury Yachts | Contact Us</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mq.css">
+</head>
+<body id="contact_page"><!-- id instead of class as only one exists on this page -->
+	<div id="wrapper">
+	 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#">Yacht Logo</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="#">HOME</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="#">YACHTS</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="#">ABOUT</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="#">CONTACT US</a>
+           </li>
+         </ul>
+       </div>
+      </div>
+    </nav>
+	<section id="banner" ><!-- section can be used instead of div in html5 -->
+  	</section>	
+	<section class="row" id="main_content">
+	 <div class="inner">
+	  <div class="container content-limit">
+	   <div class="col-md-12">
+	   <h2>Please drop us a line</h2>
+	   <p>If you have any queries please don't hesitate to call us. </p>
+	   </div>
+	  </div>
+	 </div>
+	</section>
+	<section id="form_section">
+      <div class="inner">
+	    <div class="container content-limit">
+          <div class="row">
+            <div class="col-md-12">         <!-- can replace with action="mailto:x17164966@student.ncirl.ie" as won't have php -->
+               <form id="contact-form" method="post" action="assets/cform/f1mailer.php" role="form">
+                   <div class="messages"></div>
+                   <div class="controls">
+                     <div class="row">
+                       <div class="col-md-6">
+                         <div class="form-group">
+                           <label for="form_name">Firstname *</label>
+                           <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                         <div class="help-block with-errors"></div>
+                       </div>
+                     </div><!-- row -->
+                     <div class="col-md-6">
+                       <div class="form-group">
+                         <label for="form_lastname">Lastname *</label>
+                           <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                             <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="form_email">Email *</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                          </div>
+                         </div>
+                         <div class="col-md-6">
+                           <div class="form-group">
+                             <label for="form_phone">Phone</label>
+                               <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                 <div class="help-block with-errors"></div>
+                           </div>
+                         </div>
+                       </div><!-- row -->
+                       <div class="row">
+                         <div class="col-md-12">
+                           <div class="form-group">
+                             <label for="form_survey">How did you hear about us?</label>
+                               <select id="form_survey" name="survey" class="form-control">
+                                 <option value="no_choice" selected>Please select one of the below</option>
+                                 <option value="friend">By word of mouth</option>
+                                 <option value="ad">An advertisement</option>
+                                 <option value="tv">Television</option>
+                                 <option value="search">Searched on Bing or Google</option>
+                               </select> 
+                            <div class="help-block with-errors"></div>
+                          </div>
+                        </div>                                
+                       </div><!-- row -->
+                       <div class="row">
+                         <div class="col-md-12">
+                           <div class="form-group">                                        
+                             <label for="form_message">Message *</label>
+                               <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                 <div class="help-block with-errors"></div>
+                           </div>                                   
+                         </div>
+                       </div><!-- row -->
+                       <div class="row">   
+                         <div class="col-md-12">
+                           <div class="form-group">                                        
+                             <div class="col-md-12">  
+                               <label for="form_checkbox1">Would you like to contact you by email?</label> 
+                             </div>  
+                             <div class="col-md-6">                                    
+                               <input id="form_checkbox1" type="checkbox" name="reply" class="form-control" value="yes">
+                               <div class="help-block with-errors"></div>
+                             </div>                                          
+                           </div>
+                         </div>                                                              
+                       </div><!-- row -->
+                       <div class="row">
+                         <div class="col-md-12">
+                           <input type="submit" class="btn btn-success btn-send" value="Send message">
+                         </div>
+                       </div><!-- row -->
+                       <div class="row">
+                         <div class="col-md-12">
+                           <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                         </div>
+                       </div><!-- row -->
+                      </div>
+                    </form>
+                </div><!-- /.md-col-12 -->
+            </div> <!-- /.row-->
+        </div> <!-- /.container-->	
+       </div>	
+      </section>   
+	  <section id="office_hours">
+	   <div class="inner">
+	    <div class="container content-limit">
+		  <div class="row">
+		   <div class="col-md-6">	
+			<div class="inner">		  
+			  <h2>Office hours etc</h2>
+			  <p></p>
+			</div>
+		  </div>			
+		  <div class="col-md-6">
+			<div class="inner">		  
+			  <h2>What you want here etc</h2>
+			  <p></p>			 
+			</div>
+		  </div>
+		 </div>
+		</div>
+       </div>		
+	  </section>
+	  <section id="map">	   
+		 <div class="row">
+		   <div class="col-md-12">		 
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.9932617976065!2d6.634089315820075!3d43.27251697913618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cec71512ecbcab%3A0x2a2419a6acf9560f!2sPort+of+Saint+Tropez!5e0!3m2!1sen!2sie!4v1523378428053"  height="400" frameborder="0" style="border:0; width:100% !important;" allowfullscreen></iframe>
+		   </div>
+		 </div>		
+      </section>	
+	  <footer>
+	   <div class="inner">
+	    <div class="container content-limit">
+		 <div class="col-md-12">		 
+		    <!-- content and styling from Ant -->
+		 </div>
+		</div>
+	   </div>
+      </footer>	
+	</div><!-- wrapper -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Custom Javascript -->
+  <script src="/js/script.js"></script>
+  <!-- Contact Form -->
+  <script src="assets/cform/js/validator.js"></script>
+  <script src="assets/cform/js/f1contact.js"></script>
+</body>
+
+</html>
