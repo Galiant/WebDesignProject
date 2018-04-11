@@ -2,15 +2,15 @@
 	max-width:100%;
 	height:auto;
 	}
-	
+html, body, div .home-imge {
+  height: 100%;
+}
 	/* Checker Board Layout*/
 * {
   box-sizing: border-box;
 }
 
-html, body, div {
-  height: 100%;
-}
+
 
 .hero-image {
     background-image: url("../img/home-yacht-top.jpg");
@@ -37,7 +37,7 @@ html, body, div {
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    top: 84%;
+    top: 47%;
     left: 72%;
     transform: translate(-50%, -50%);
     color: white;
@@ -152,7 +152,7 @@ article {
 .block-row {
 	margin-right: 0px;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 60px;
 	margin-bottom: 10px;
 	
 }
@@ -241,6 +241,19 @@ article {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-Close
 
 
+/* Footer */
+
+.mfooter {
+	color:#fff;
+	background-color: #182532 !important;
+	padding-bottom:300px;
+	margin-top:60px;
+	background-image: url("../img/footer.png");
+}
+
+.mcopyright {
+	color:#fff;
+	background-color: #0a1621;
+}
