@@ -1,3 +1,4 @@
+	/* Hero image top*/
 .home-image{
 	max-width:100%;
 	height:auto;
@@ -9,9 +10,6 @@ html, body, div .home-imge {
 * {
   box-sizing: border-box;
 }
-
-
-
 .hero-image {
     background-image: url("../img/home-yacht-top.jpg");
 	background-attachment:fixed;
@@ -47,7 +45,7 @@ html, body, div .home-imge {
     text-align: center;
     vertical-align: middle;
     position: absolute;
-    top: 84%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -134,6 +132,8 @@ article {
 .crew {
   height:70%;
   max-height:100%;
+  padding-left:0px;
+  padding-right:0px;
 }
 .about {
   height:400px;
@@ -150,10 +150,8 @@ article {
   background-color: #ffffff;
 }
 .block-row {
-	margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 60px;
-	margin-bottom: 10px;
+    margin-top: -7px;
+	margin-bottom: 0px;
 	
 }
 /* Image Hover */
@@ -249,11 +247,20 @@ article {
 	color:#fff;
 	background-color: #182532 !important;
 	padding-bottom:300px;
-	margin-top:60px;
+	margin-top:0px;
 	background-image: url("../img/footer.png");
+	padding-top:30px;    
+	border-top: 3px solid #040617;
+	height: 333px;
 }
 
 .mcopyright {
 	color:#fff;
 	background-color: #0a1621;
+}
+
+.footer-nav {
+text-align: left;
+padding-left:60px;
+color:#f4f4f4 !important;
 }
