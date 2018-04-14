@@ -1,0 +1,266 @@
+	/* Hero image top*/
+.home-image{
+	max-width:100%;
+	height:auto;
+	}
+html, body, div .home-imge {
+  height: 100%;
+}
+	/* Checker Board Layout*/
+* {
+  box-sizing: border-box;
+}
+.hero-image {
+    background-image: url("../img/home-yacht-top.jpg");
+	background-attachment:fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 {
+    background-image: url("../img/carribean-background.jpg");
+    height: 526px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	display:inline-block;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 47%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: white;
+	
+}
+@media only screen and (max-width: 1058px) { .hero-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
+.hero-text2 {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    color: white;
+	width:100%;
+	top:33%
+}
+@media only screen and (max-width: 600px) { .hero-text2 {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 380px;
+}
+}
+.button-dark {
+	background: transparent;
+    padding: 9px 36px;
+    border: 2px solid #fff;
+    color: #ffffff;
+}
+.button-light {
+	background: transparent;
+    padding: 9px 36px;
+    border: 2px solid #0f5f80;
+    color: #0f5f80;
+}
+
+article {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.left-half {
+  float:left;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/compass.png");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+
+.right-half {
+  float:right;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/sailor.jpg");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+.left-half-2 {
+  float:left;
+  height:680px;
+  padding: 12%;
+  background-image: url("../img/sunset-sailing.jpg");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+.right-half-2 {
+  float:right;
+  height:680px;
+  padding: 10%;
+  background-image: url("../img/compass-2.png");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-color: #ffffff;
+}
+
+.crew {
+  height:70%;
+  max-height:100%;
+  padding-left:0px;
+  padding-right:0px;
+}
+.about {
+  height:400px;
+  width:400px;
+  padding: 12%;
+}
+.yachts {
+  float:left;
+  height:400px;
+  width:400px;
+  padding: 12%;
+  background-image: url("../img/crew.jpg");
+  background-repeat:no-repeat;
+  background-color: #ffffff;
+}
+.block-row {
+    margin-top: -7px;
+	margin-bottom: 0px;
+	
+}
+/* Image Hover */
+.hovereffect {
+  width: 100%;
+  height: 500px;
+  max-height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #0f5f80 0%,#05abe0 100%);
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.hovereffect h1 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 27px;
+  background-color: transparent;
+  text-align: left;
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+/* Footer */
+
+.mfooter {
+	color:#fff;
+	background-color: #182532 !important;
+	padding-bottom:300px;
+	margin-top:0px;
+	background-image: url("../img/footer.png");
+	padding-top:30px;    
+	border-top: 3px solid #040617;
+	height: 333px;
+}
+
+.mcopyright {
+	color:#fff;
+	background-color: #0a1621;
+}
+
+.footer-nav {
+text-align: left;
+padding-left:60px;
+color:#f4f4f4 !important;
+}
