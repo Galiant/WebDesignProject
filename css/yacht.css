@@ -1,0 +1,103 @@
+/* General */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Top navbar */
+
+.nav-background {
+  background-color: #153054;
+  height: 70px;
+}
+
+.nav-top {
+  width: 100%;
+  height: 45px;
+  background-color: #153054;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.head-room {
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  padding-top: 15px;
+  height: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.yachts-contact {
+  padding: 10px 0;
+}
+
+.social {
+  padding-left: 0;
+}
+
+.fa-inverse {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fa-circle-thin {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.phone {
+  padding-right: 0;
+}
+
+.phone-phone {
+  font-size: 18px;
+  padding-top: 3px;
+  letter-spacing: 0.6pt;
+}
+
+/* Content */
+
+.yacht-group {
+  display: block;
+  margin-top: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.yacht-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-deck {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+p.card-text {
+  font-size: 16px;
+}
+
+p.text-center {
+  margin-bottom: 0;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+}
