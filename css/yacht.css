@@ -6,6 +6,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  background-image: url("../img/carribean-background.png");
+  background-attachment: fixed;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Top navbar */
@@ -66,11 +73,22 @@ body {
 
 /* Content */
 
-.yacht-group {
+.yacht-group1 {
   display: block;
   margin-top: 120px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.yacht-group2 {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.yacht-group-title {
+  font-size: 40px;
+  color: #fff;
 }
 
 .yacht-container {
@@ -78,9 +96,19 @@ body {
   padding-right: 0;
 }
 
+.card {
+  border-radius: 0;
+}
+
 .card-deck {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .card-title {
@@ -100,4 +128,21 @@ p.text-center {
 .card-footer {
   background-color: transparent;
   border-top: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.button-light {
+  background: transparent;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #0f5f80;
+}
+
+.button-light:hover {
+  background: #0f5f80;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #fff;
+  text-decoration: none;
 }
