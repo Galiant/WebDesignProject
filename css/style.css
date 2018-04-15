@@ -244,7 +244,6 @@ article {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: #f1f1f1f1;
 }
 
 /* Slides */
@@ -323,8 +322,10 @@ q {font-style: italic;}
 	padding-bottom:300px;
 	margin-top:0px;
 	background-image: url("../img/footer.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	vertical-align:bottom;
 	padding-top:30px;    
-	border-top: 3px solid #040617;
 	height: 333px;
 }
 
