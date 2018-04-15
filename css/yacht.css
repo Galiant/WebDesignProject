@@ -198,3 +198,72 @@ p.text-center {
   margin-top: 40px;
   padding-bottom: 60px;
 }
+
+/* Crew */
+
+.crew-image {
+  background-image: url("../img/crew.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+
+/* Place text in the middle of the image */
+
+.crew-text {
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 78%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(21, 48, 84, 0.9);
+  padding: 10px 10px;
+}
+
+@media only screen and (max-width: 1058px) {
+  .crew-text {
+    texts-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    color: white;
+    width: 380px;
+    font-size: 14px;
+  }
+}
+
+.crew {
+  padding-top: 20px;
+}
+
+.crew-section {
+  border-bottom: 2px solid #153054;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.no-border {
+  border-bottom-style: none;
+}
+
+.crew-title {
+  font-size: 40px;
+  color: #000;
+}
+
+.para-title {
+  font-size: 20px;
+}
+
+.crew-subtitle {
+  font-size: 25px;
+  color: #000;
+}
