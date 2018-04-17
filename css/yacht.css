@@ -267,3 +267,17 @@ p.text-center {
   font-size: 25px;
   color: #000;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    padding-left: 20px;
+  }
+  .nav-background {
+    height: 90px;
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+}
