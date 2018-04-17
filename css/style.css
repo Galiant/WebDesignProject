@@ -187,12 +187,25 @@ div .home-imge {
   border: 2px solid #fff;
   color: #ffffff;
 }
-
+.button-dark:hover {
+ background: #ffffff;
+ padding: 9px 36px;
+ border: 2px solid #ffffff;
+ color: #0f5f80;
+ text-decoration: none;
+}
 .button-light {
   background: transparent;
   padding: 9px 36px;
   border: 2px solid #0f5f80;
   color: #0f5f80;
+}
+.button-light:hover {
+ background: #0f5f80;
+ padding: 9px 36px;
+ border: 2px solid #0f5f80;
+ color: #fff;
+ text-decoration: none;
 }
 
 article {
@@ -472,3 +485,23 @@ q {
   padding-left: 60px;
   color: #f4f4f4 !important;
 }
+=======
+text-align: left;
+padding-left:60px;
+color:#f4f4f4 !important;
+}
+.social-nav {
+	padding: 11px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    width: 11%;
+    color: #fff;
+	margin: 5px;
+}
+.social-nav:hover {
+ color: #0056b3;
+ text-decoration: none;
+ border: solid 2px #0056b3;
+ margin: 5px;
+}
+

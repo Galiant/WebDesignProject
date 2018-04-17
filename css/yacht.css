@@ -381,3 +381,44 @@ p.text-center {
     width: 280px;
   }
 }
+
+
+/* Footer */
+
+.mfooter {
+	color:#fff;
+	background-color: #182532 !important;
+	padding-bottom:300px;
+	margin-top:0px;
+	background-image: url("../img/footer.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	vertical-align:bottom;
+	padding-top:30px;    
+	height: 333px;
+}
+
+.mcopyright {
+	color:#fff;
+	background-color: #0a1621;
+}
+
+.footer-nav {
+text-align: left;
+padding-left:60px;
+color:#f4f4f4 !important;
+}
+.social-nav {
+	padding: 11px;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    width: 11%;
+    color: #fff;
+	margin: 5px;
+}
+.social-nav:hover {
+ color: #0056b3;
+ text-decoration: none;
+ border: solid 2px #0056b3;
+ margin: 5px;
+}
