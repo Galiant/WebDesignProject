@@ -351,6 +351,7 @@ p.text-center {
   }
   .phone-phone {
     font-size: 12px;
+    letter-spacing: 0pt;
   }
 }
 
@@ -368,9 +369,6 @@ p.text-center {
   .button-light:hover {
     padding: 5px 10px;
     font-size: 14px;
-  }
-  .phone-phone {
-    letter-spacing: 0pt;
   }
   .carousel-indicators li {
     width: 10%;
