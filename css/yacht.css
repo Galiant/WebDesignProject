@@ -377,3 +377,9 @@ p.text-center {
     height: 50px;
   }
 }
+
+@media only screen and (max-width: 475px) {
+  .crew-text {
+    width: 280px;
+  }
+}
