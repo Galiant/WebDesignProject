@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- page zooms out if doesn't exist in mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LuxYachts</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/mq.css">
+  <!-- demo scripts -->
+
+</head>
+
+<body id="contact_page">
+  <!-- id instead of class as only one exists on this page -->
+  <div id="wrapper">
+    <!-- Top navbar -->
+    <div class="nav-top fixed-top">
+      <div class="container">
+        <div class="row justify-content-between yachts-contact">
+          <div class="col-4 text-left social">
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div>
+          <div class="col-4 text-right phone">
+            <span class="fa-stack">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+            </span>
+            <span class="phone-phone">+353 85 1234567</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-background head-room" id="mainNav">
+      <div class="container menu">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">
+          <img src="img/lux-yacht-logo.png" alt="yacht logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="yachts.html">YACHTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="crew.html">CREW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div class="row contact-image col-md-12">
+      <div class="hero-text contact-text">
+        <h1>The Yacht Charter Specialists</h1>
+        <hr>
+        <p class="subheading">Bringing you closer to the drama</p>
+        <button class="button-dark">FIND OUT MORE</button>
+      </div>
+    </div>
+    <section class="row" id="main_content">
+      <div class="inner">
+        <div class="container content-limit">
+          <div class="col-md-12">
+            <h2>Please drop us a line</h2>
+            <p>If you have any queries please don't hesitate to call us. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form_section">
+      <div class="inner">
+        <div class="container content-limit">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- can replace with action="mailto:x17164966@student.ncirl.ie" as won't have php -->
+              <!-- action="assets/cform/f1mailer.php" -->
+              <form id="contact-form" method="post" action="mailto:x17161533@student.ncirl.ie" role="form">
+                <div class="messages"></div>
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_name">Firstname *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <!-- row -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_lastname">Lastname *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_phone">Phone</label>
+                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="form_survey">How did you hear about us?</label>
+                        <select id="form_survey" name="survey" class="form-control">
+                          <option value="no_choice" selected>Please select one of the below</option>
+                          <option value="friend">By word of mouth</option>
+                          <option value="ad">An advertisement</option>
+                          <option value="tv">Television</option>
+                          <option value="search">Searched on Bing or Google</option>
+                        </select>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <div class="col-md-12">
+                          <label for="form_checkbox1">Would you like to contact you by email?</label>
+                        </div>
+                        <div class="col-md-6">
+                          <input id="form_checkbox1" type="checkbox" name="reply" class="form-control" value="yes">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="reset" class="btn btn-reset" value="Reset">
+                    </div>
+                  </div>
+                  <!-- row -->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-muted">
+                        <strong>*</strong> These fields are required.</p>
+                    </div>
+                  </div>
+                  <!-- row -->
+                </div>
+              </form>
+            </div>
+            <!-- /.md-col-12 -->
+          </div>
+          <!-- /.row-->
+        </div>
+        <!-- /.container-->
+      </div>
+    </section>
+    <section id="office_europe">
+      <div class="inner">
+        <div class="container content-limit">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="inner">
+                <h2>Czech Republic</h2>
+                <table>
+                  <tr>
+                    <th>
+                      <h3>Opening hours</h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Mon-Sat</td>
+                    <td>8.30-18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td>+353 85 1234567</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8755.877917865322!2d14.066875820958831!3d50.66366994449353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47099cca9e6a6b17%3A0x5b78da536577b4ba!2zw5pzdMOtIG5hZCBMYWJlbSBQb3J0!5e0!3m2!1sen!2sie!4v1524033238653" height="300" frameborder="0" style="border:0; width:100% !important;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="office_med">
+      <div class="inner">
+        <div class="container content-limit">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="inner">
+                <h2>Monte Carlo</h2>
+                <table>
+                  <tr>
+                    <th>
+                      <h3>Opening hours</h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Mon-Sat</td>
+                    <td>8.30-18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td>+353 85 1234567</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5765.063542031468!2d7.421593078443752!3d43.74105291647335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc287dedfadcd%3A0xee15296ed95b686c!2sMonte+Carlo%2C+Monaco-Ville%2C+Monaco!5e0!3m2!1sen!2sie!4v1524039164651" height="300" frameborder="0" style="border:0; width:100% !important;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="office_worldwide">
+      <div class="inner">
+        <div class="container content-limit">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="inner">
+                <h2>Martinique</h2>
+                <table>
+                  <tr>
+                    <th>
+                      <h3>Opening hours</h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>Mon-Sat</td>
+                    <td>8.30-18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td>+353 85 1234567</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247064.6692813714!2d-61.15385943715648!3d14.63404768832861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c6aa0f90066070d%3A0xe1001b1217afe7b0!2sMartinique!5e0!3m2!1sen!2sie!4v1524041437562" height="300" frameborder="0" style="border:0; width:100% !important;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="map">
+      <div class="row">
+        <div class="col-md-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8755.877917865322!2d14.066875820958831!3d50.66366994449353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47099cca9e6a6b17%3A0x5b78da536577b4ba!2zw5pzdMOtIG5hZCBMYWJlbSBQb3J0!5e0!3m2!1sen!2sie!4v1524033238653" height="400" frameborder="0" style="border:0; width:100% !important;" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+      <div class="row col-md-12 mfooter">
+        <div class="col-sm-4 footer-nav ">
+          <h4>NAVIGATION</H4>
+          <br>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">HOME</a>
+            </li>
+            <li>
+              <a href="#!">YACHTS</a>
+            </li>
+            <li>
+              <a href="#!">ABOUT</a>
+            </li>
+            <li>
+              <a href="#!">CREW</a>
+            </li>
+            <li>
+              <a href="#!">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 text-md-center">
+          <img src="img/lux-yacht-logo-footer.png" alt="yacht logo">
+          <br>
+          <br>
+          <p>
+            Welcome to the most luxurious selection of hi-end yachts on the market. Feel free to take a tour of our catalogue and make you dreams a reality.
+          </p>
+          <br>
+          <i class="fa fa-facebook fa-2x"></i>
+          <i class="fa fa-twitter fa-2x"></i>
+          <i class="fa fa-instagram fa-2x"></i>
+          <br>
+        </div>
+        <div class="col-sm-4 text-md-center footer-nav">
+          <h4>LOCATION</H4>
+          <img src="img/footer-map.png" alt="yacht logo">
+        </div>
+      </div>
+      <!-- Copyright-->
+      <div class="col-md-12 footer-copyright py-3 text-center mcopyright">
+        © 2018 Copyright:
+        <a href="">
+          <strong> LUXURY YACHTS</strong>
+        </a>
+      </div>
+      <!--/.Copyright -->
+
+    </footer>
+    <!--/.Footer-->
+
+  </div>
+  <!-- wrapper -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Custom Javascript -->
+  <script src="/js/script.js"></script>
+  <!-- Contact Form -->
+  <script src="js/validator.js"></script>
+  <script src="js/f1contact-without-php.js"></script>
+</body>
+
+</html>

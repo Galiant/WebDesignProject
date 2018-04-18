@@ -1,0 +1,87 @@
+/* bootstrap fix - to prevent horizontal scroll bar showing*/
+#contact_page .row { margin:0 } /* required :) */
+/* bootstrap custom */
+.with-errors { 
+	color: #a94442; 
+}
+.has-error .form-control {
+    border-color: #a94442 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+}
+
+#contact_page footer img { width: 100% ; }
+
+
+/* can also have wider for widescreen - can add in mq.css media query say min-value: 1600px  and value here of 1200px ?? */
+/* keeps content contained in smaller area so that easier to read text */
+
+
+#wrapper { 
+	padding:0; 
+	margin:0; 
+}
+
+.contact-image {
+  background-image: url("../img/contact/banner-contact-unsp-1600c.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  position: relative;
+  height: 60vh;
+  margin-bottom: 20px;
+}
+
+#contact_page .contact-text {
+  text-align: center;
+  top: 60%;
+  left: 50%;
+}  
+
+#main_content {
+	color:white;
+	background-color:rgba(0,0,0, 0.8);	
+	display:block;
+	min-height: 125px; /**/
+	margin-top: -125px; /* same value as min height but negative */
+	padding:20px 0px; /*top and bottom 20px*/
+}
+#form_section {
+	padding: 60px 0;    
+}
+#office_hours,
+#office_europe,
+#office_med,
+#office_worldwide {
+	background: rgb(240,230,240);
+	min-height: 300px;
+	padding: 20px 0;
+}
+#office_europe {
+	padding-top: 60px;
+}
+#office_worldwide {
+	padding-bottom: 60px;
+}
+#map { 
+	min-height: 300px;
+}
+#map .col-md-12 { 
+	padding:0 !important;
+}
+
+/* temporary placeholder */
+#office_hours .col-md-6 {
+   background-color:rgba(255,255,255, 0.4);
+   min-height:200px;
+}
+#contact_page table h3 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#contact_page td:first-of-type {
+	min-width: 80px;
+}

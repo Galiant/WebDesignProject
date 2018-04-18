@@ -1,0 +1,4 @@
+/* bootstrap fix*/ 
+.row { margin: 0;}
+.col-md-12 { padding-right: 0; }
+footer img { width: 100% ; } /* for footer map */
