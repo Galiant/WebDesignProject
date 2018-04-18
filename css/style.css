@@ -161,11 +161,27 @@ div .home-imge {
     color: #ffffff;
 }
 
+.button-dark:hover {
+    background: #ffffff;
+    padding: 9px 36px;
+    border: 2px solid #ffffff;
+    color: #0f5f80;
+    text-decoration: none;
+}
+
 .button-light {
     background: transparent;
     padding: 9px 36px;
     border: 2px solid #0f5f80;
     color: #0f5f80;
+}
+
+.button-light:hover {
+    background: #0f5f80;
+    padding: 9px 36px;
+    border: 2px solid #0f5f80;
+    color: #fff;
+    text-decoration: none;
 }
 
 article {
