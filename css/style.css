@@ -436,17 +436,6 @@ q {
     margin-right: 130px;
 }
 
-.mcopyright {
-    color: #fff;
-    background-color: #0a1621;
-}
-
-.footer-nav {
-    text-align: left;
-    padding-left: 60px;
-    color: #f4f4f4 !important;
-}
-
 @media only screen and (max-width: 650px) {
     .mfooter {
         color: #fff;
