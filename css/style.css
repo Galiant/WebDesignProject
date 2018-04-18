@@ -464,6 +464,10 @@ q {
     color: #f4f4f4 !important;
 }
 
+footer img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 650px) {
     .footer-nav {
         text-align: left;
