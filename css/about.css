@@ -1,6 +1,18 @@
 /* bootstrap fix*/
 
 #about_page .row {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#about_page .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#about_page footer img {
+  width: 100%;
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -8,9 +20,6 @@
 #about_page .col-md-12 {
     padding-left: 0;
     padding-right: 0;
-}
-#about_page footer img {
-    width: 100%;
 }
 
 /* for footer map */
@@ -20,7 +29,6 @@
 }
 
 /* banner */
-
 
 /* mathew wheeler unsplash */
 
@@ -36,11 +44,21 @@
     margin-bottom: 20px;
 	background-color:#153054
 }
+
 #about_page .about-text {
-    text-align: center;
-    top: 60%;
-    left: 50%;
+  text-align: center;
+  top: 60%;
+  left: 50%;
 }
+
+#about_page .about-text button {
+  margin-top: 40px;
+}
+
+#about_page button {
+  margin-top: 40px;
+}
+
 #about_page h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -64,10 +82,11 @@ hr {
     border-width: 2px;
     width: 50%;
 }
+
 .article {
-    position: relative;
-    top: 20%;
-    text-align: center;
+  position: relative;
+  top: 20%;
+  text-align: center;
 }
 
 /* sections */
@@ -75,30 +94,36 @@ hr {
 .left-half1 {
     background-image: url("../img/compass.png");
 }
+
 .right-half1 {
     background-image: url("../img/about/about-above.jpg");
 }
+
 .left-half2 {
     background-image: url("../img/about/moonlight-780.jpg");
 }
+
 .right-half2 {
-    background-image: url("../img/compass.png");
+  background-image: url("../img/compass.png");
 }
+
+
 .left-half1,
 .right-half1,
 .left-half2,
 .right-half2 {
-    height: 680px;
-    padding: 10%;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    margin-top: 0;
+  height: 680px;
+  padding: 10%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  margin-top: 0;
 }
+
 .left-half1,
 .right-half1,
 .left-half2,
 .right-half2 p {
-    text-shadow: 1px 1px 2px rgb(200, 200, 200);
+  text-shadow: 1px 1px 2px rgb(200, 200, 200);
 }
 
 /* hero  banner */
@@ -109,6 +134,16 @@ hr {
     background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
     background-attachment: fixed;
 }
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .about-text2 {
     top: 20%;
+}
+
+.list-unstyled li a {
+  color: white;
 }

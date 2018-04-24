@@ -1,25 +1,34 @@
 /* bootstrap fix - to prevent horizontal scroll bar showing*/
-#contact_page .row { margin:0 } /* required :) */
+
+#contact_page .row {
+  margin: 0;
+}
+
+/* required :) */
+
 /* bootstrap custom */
-.with-errors { 
-	color: #a94442; 
+
+.with-errors {
+  color: #a94442;
 }
+
 .has-error .form-control {
-    border-color: #a94442 !important;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+  border-color: #a94442 !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-#contact_page footer img { width: 100% ; }
-
+#contact_page footer img {
+  width: 100%;
+}
 
 /* can also have wider for widescreen - can add in mq.css media query say min-value: 1600px  and value here of 1200px ?? */
+
 /* keeps content contained in smaller area so that easier to read text */
 
-
-#wrapper { 
-	padding:0; 
-	margin:0; 
+#wrapper {
+  padding: 0;
+  margin: 0;
 }
 
 .contact-image {
@@ -38,50 +47,106 @@
   text-align: center;
   top: 60%;
   left: 50%;
-}  
+  background-color: rgba(21, 48, 84, 0.8);
+  padding: 20px;
+}
 
 #main_content {
-	color:white;
-	background-color:rgba(0,0,0, 0.8);	
-	display:block;
-	min-height: 125px; /**/
-	margin-top: -125px; /* same value as min height but negative */
-	padding:20px 0px; /*top and bottom 20px*/
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+  min-height: 125px;
+  /**/
+  margin-top: -125px;
+  /* same value as min height but negative */
+  padding: 20px 0px;
+  /*top and bottom 20px*/
 }
+
 #form_section {
-	padding: 60px 0;    
+  padding: 60px 0;
 }
+
 #office_hours,
 #office_europe,
 #office_med,
 #office_worldwide {
-	background: rgb(240,230,240);
-	min-height: 300px;
-	padding: 20px 0;
+  background: #153054;
+  color: white;
+  min-height: 300px;
+  padding: 20px 0;
 }
+
 #office_europe {
-	padding-top: 60px;
+  padding-top: 60px;
 }
+
 #office_worldwide {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
-#map { 
-	min-height: 300px;
+
+#map {
+  min-height: 300px;
 }
-#map .col-md-12 { 
-	padding:0 !important;
+
+#map .col-md-12 {
+  padding: 0 !important;
 }
 
 /* temporary placeholder */
+
 #office_hours .col-md-6 {
-   background-color:rgba(255,255,255, 0.4);
-   min-height:200px;
+  min-height: 200px;
 }
+
 #contact_page table h3 {
-	font-size: 1em;
-	font-weight: bold;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 #contact_page td:first-of-type {
-	min-width: 80px;
+  min-width: 80px;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.button-light {
+  background: transparent;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #0f5f80;
+}
+
+.button-light:hover {
+  background: #0f5f80;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+  color: #fff;
+  background-color: white;
+  border-color: #0f5f80;
+  opacity: 1;
+  color: #0f5f80;
+}
+
+.btn.disabled,
+.btn:disabled {
+  opacity: 1;
+}
+
+.list-unstyled li a {
+  color: white;
+}
+
+.text-muted {
+  padding-top: 20px;
 }
