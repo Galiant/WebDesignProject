@@ -47,6 +47,8 @@
   text-align: center;
   top: 60%;
   left: 50%;
+  background-color: rgba(21, 48, 84, 0.8);
+  padding: 20px;
 }
 
 #main_content {
@@ -106,6 +108,11 @@
   min-width: 80px;
 }
 
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .button-light {
   background: transparent;
   padding: 9px 36px;
@@ -138,4 +145,8 @@
 
 .list-unstyled li a {
   color: white;
+}
+
+.text-muted {
+  padding-top: 20px;
 }

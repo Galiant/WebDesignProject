@@ -3,482 +3,445 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .yachts-background {
-    background-image: url("../img/carribean-background.png");
-    background-attachment: fixed;
-    height: 100%;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url("../img/carribean-background.png");
+  background-attachment: fixed;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Top navbar */
 
 .nav-background {
-    background-color: #153054;
-    height: 70px;
+  background-color: #153054;
+  height: 70px;
 }
 
 .nav-top {
-    width: 100%;
-    height: 45px;
-    background-color: #153054;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    position: fixed;
-    overflow: hidden;
-    padding-top: 5px;
+  width: 100%;
+  height: 45px;
+  background-color: #153054;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 5px;
 }
 
 .head-room {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 .menu {
-    padding: 0;
-    padding-top: 15px;
-    height: 60%;
-    border-top: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0;
+  padding-top: 15px;
+  height: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .yachts-contact {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .social {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .fa-inverse {
-    color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .fa-circle-thin {
-    color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .phone {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .phone-phone {
-    font-size: 18px;
-    padding-top: 3px;
-    letter-spacing: 0.6pt;
+  font-size: 18px;
+  padding-top: 3px;
+  letter-spacing: 0.6pt;
 }
 
 /* Content */
 
 .yacht-group1 {
-    display: block;
-    margin-top: 120px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  display: block;
+  margin-top: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .yacht-group2 {
-    display: block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .yacht-group-title {
-    font-size: 40px;
-    color: #fff;
+  font-size: 40px;
+  color: #fff;
 }
 
 .yacht-container {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .card {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .card-deck {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
 }
 
 .card-img-top {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .card-title {
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-weight: 700;
 }
 
 p.card-text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 p.text-center {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card-footer {
-    background-color: transparent;
-    border-top: none;
-    margin-bottom: 30px;
-    margin-top: 10px;
+  background-color: transparent;
+  border-top: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .button-light {
-    background: transparent;
-    padding: 9px 36px;
-    border: 2px solid #0f5f80;
-    color: #0f5f80;
+  background: transparent;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #0f5f80;
 }
 
 .button-light:hover {
-    background: #0f5f80;
-    padding: 9px 36px;
-    border: 2px solid #0f5f80;
-    color: #fff;
-    text-decoration: none;
+  background: #0f5f80;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Slider */
 
 .carousel-item {
-    height: auto;
-    max-width: 100%;
-    height: 100vh;
-    max-height: 960px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: auto;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 960px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .carousel-indicators {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .carousel-indicators li {
-    width: 160px;
-    height: 90px;
+  width: 160px;
+  height: 90px;
 }
 
 .carousel-caption {
-    margin-top: 140px;
-    top: 0;
-    bottom: auto;
-    right: auto;
-    left: 5%;
-    background-color: #153054;
-    padding: 10px 15px 5px 15px;
+  margin-top: 140px;
+  top: 0;
+  bottom: auto;
+  right: auto;
+  left: 5%;
+  background-color: #153054;
+  padding: 10px 15px 5px 15px;
 }
 
 .carousel-caption h3 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.75px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
 }
 
 /* Yacht Description */
 
 .yacht-detail-name {
-    margin-top: 60px;
-    margin-bottom: 25px;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
 
 .details-text {
-    text-align: justify;
+  text-align: justify;
 }
 
 .enquire {
-    margin-top: 40px;
-    padding-bottom: 60px;
+  margin-top: 40px;
+  padding-bottom: 60px;
 }
 
 .button-light-big {
-    background: transparent;
-    padding: 9px 36px;
-    border: 2px solid #0f5f80;
-    color: #0f5f80;
-    font-size: 24px;
+  background: transparent;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #0f5f80;
+  font-size: 24px;
 }
 
 .button-light-big:hover {
-    background: #0f5f80;
-    padding: 9px 36px;
-    border: 2px solid #0f5f80;
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
+  background: #0f5f80;
+  padding: 9px 36px;
+  border: 2px solid #0f5f80;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 /* Crew */
 
 .crew-image {
-    background-image: url("../img/crew.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    margin-bottom: 20px;
+  background-image: url("../img/crew.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 20px;
 }
 
 /* Place text in the middle of the image */
 
 .crew-text {
-    text-align: center;
-    vertical-align: middle;
-    position: absolute;
-    top: 78%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: rgba(21, 48, 84, 0.9);
-    padding: 10px 10px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 78%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(21, 48, 84, 0.9);
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width: 1058px) {
-    .crew-text {
-        text-align: center;
-        vertical-align: middle;
-        position: absolute;
-        top: 74%;
-        left: 50%;
-        color: white;
-        width: 380px;
-        font-size: 14px;
-    }
+  .crew-text {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    color: white;
+    width: 380px;
+    font-size: 14px;
+  }
 }
 
 .crew {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .crew-section {
-    border-bottom: 2px solid #153054;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-    width: 90%;
+  border-bottom: 2px solid #153054;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  width: 90%;
 }
 
 .no-border {
-    border-bottom-style: none;
+  border-bottom-style: none;
 }
 
 .crew-title {
-    font-size: 40px;
-    color: #000;
+  font-size: 40px;
+  color: #000;
 }
 
 .para-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .crew-subtitle {
-    font-size: 25px;
-    color: #000;
+  font-size: 25px;
+  color: #000;
 }
 
 /* Mobile */
 
 @media only screen and (max-width: 1200px) {
-    .button-light {
-        padding: 5px 10px;
-        font-size: 16px;
-    }
-    .button-light:hover {
-        padding: 5px 10px;
-        font-size: 16px;
-    }
+  .button-light {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  .button-light:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
-    .social {
-        padding-left: 15px;
-    }
-    .phone {
-        padding-right: 15px;
-    }
-    .container {
-        max-width: 100%;
-    }
-    .navbar-collapse {
-        padding-left: 20px;
-    }
-    .nav-background {
-        height: 90px;
-    }
-    .card-title {
-        font-size: 0.8rem;
-    }
-    p.card-text {
-        font-size: 14px;
-    }
-    .button-light {
-        padding: 5px 10px;
-        font-size: 12px;
-    }
-    .button-light:hover {
-        padding: 5px 10px;
-        font-size: 12px;
-    }
-    .yacht-detail-name {
-        font-size: 18px;
-    }
+  .social {
+    padding-left: 15px;
+  }
+  .phone {
+    padding-right: 15px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .navbar-collapse {
+    padding-left: 20px;
+  }
+  .nav-background {
+    height: 90px;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
+  p.card-text {
+    font-size: 14px;
+  }
+  .button-light {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .button-light:hover {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .yacht-detail-name {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 691px) {
-    .button-light {
-        padding: 5px 10px;
-        font-size: 10px;
-    }
-    .button-light:hover {
-        padding: 5px 10px;
-        font-size: 10px;
-    }
-    .phone-phone {
-        font-size: 12px;
-        letter-spacing: 0pt;
-    }
+  .button-light {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .button-light:hover {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .phone-phone {
+    font-size: 12px;
+    letter-spacing: 0pt;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-    .card-title {
-        font-size: 1rem;
-    }
-    p.card-text {
-        font-size: 16px;
-    }
-    .button-light {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-    .button-light:hover {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-    .carousel-indicators li {
-        width: 10%;
-        height: 50px;
-    }
+  .card-title {
+    font-size: 1rem;
+  }
+  p.card-text {
+    font-size: 16px;
+  }
+  .button-light {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .button-light:hover {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .carousel-indicators li {
+    width: 10%;
+    height: 50px;
+  }
 }
 
 @media only screen and (max-width: 475px) {
-    .crew-text {
-        width: 280px;
-    }
+  .crew-text {
+    width: 280px;
+  }
 }
 
 /* Footer */
 
 .mfooter {
+  color: #fff;
+  background-color: #182532 !important;
+  padding-bottom: 300px;
+  margin-top: 0px;
+  background-image: url("../img/footer.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-top: 30px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mcopyright {
+  color: #fff;
+  background-color: #0a1621;
+}
+
+.footer-nav {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 0px;
+  color: #f4f4f4 !important;
+}
+
+footer img {
+  width: 100%;
+}
+
+/* for footer */
+
+@media only screen and (max-width: 650px) {
+  .mfooter {
     color: #fff;
     background-color: #182532 !important;
     padding-bottom: 300px;
     margin-top: 0px;
-    background-image: url("../img/footer.png");
-    background-attachment: fixed;
+    background-image: none;
     background-repeat: no-repeat;
     vertical-align: bottom;
     padding-top: 30px;
-    height: 333px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media only screen and (max-width: 650px) {
-    .mfooter {
-        color: #fff;
-        background-color: #182532 !important;
-        padding-bottom: 300px;
-        margin-top: 0px;
-        background-image: none;
-        background-repeat: no-repeat;
-        vertical-align: bottom;
-        padding-top: 30px;
-        height: 700px;
-    }
-}
-
-.mcopyright {
+    height: 700px;
+    text-align: center;
+  }
+  .footer-nav {
+    text-align: center;
+  }
+  .social-nav {
+    padding: 11px;
+    border: solid 0px #fff;
+    border-radius: 50%;
+    width: 11%;
     color: #fff;
-    background-color: #0a1621;
+    margin: 5px;
+  }
+  .social-nav:hover {
+    text-decoration: none;
+  }
 }
-
-.footer-nav {
-    text-align: left;
-    padding-left: 60px;
-    padding-right: 60px;
-    color: #f4f4f4 !important;
-}
-
-footer img {
-    width: 100%;
-}
-
-/* for footer map */
-
-@media only screen and (max-width: 650px) {
-    .footer-nav {
-        text-align: left;
-        padding-left: 15px;
-        padding-right: 0px;
-        color: #f4f4f4 !important;
-    }
-    .social-nav {
-        padding: 11px;
-        border: solid 2px #fff;
-        border-radius: 50%;
-        width: 11%;
-        color: #fff;
-        margin: 5px;
-    }
-    @media only screen and (max-width: 1500px) {
-        .social-nav {
-            padding: 11px;
-            border: solid 0px #fff;
-            border-radius: 50%;
-            width: 11%;
-            color: #fff;
-            margin: 5px;
-        }
-    }
-    @media only screen and (max-width: 650px) {
-        .social-nav {
-            padding: 11px;
-            border: solid 0px #fff;
-            border-radius: 50%;
-            width: 11%;
-            color: #fff;
-            margin: 5px;
-        }
-    }
-    .social-nav:hover {
-        color: #0056b3;
-        text-decoration: none;
-        border: solid 2px #0056b3;
-        margin: 5px;
-    }
-    @media only screen and (max-width: 650px) {
-        .social-nav:hover {
-            padding: 11px;
-            border: solid 0px #fff;
-            border-radius: 50%;
-            width: 11%;
-            color: #fff;
-            margin: 5px;
-        }
-    }
