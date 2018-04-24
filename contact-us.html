@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/mq.css">
   <!-- Favicon -->
-	<link rel="shotcut icon" href="img/favicon.png">
+  <link rel="shotcut icon" href="img/favicon.png">
   <!-- demo scripts -->
 
 </head>
@@ -153,12 +153,15 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label for="form_survey">I want to explore...</label>
-                        <select id="form_survey" name="survey" class="form-control">
-                          <option value="no_choice" selected>Please select one of the below</option>
-                          <option value="caribbean">Caribbean</option>
-                          <option value="mediterranean">Mediterranean</option>
-                        </select>
+                        <legend class="col-form-label">I want to explore....</legend>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">Mediterranean</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">Caribbean</label>
+                        </div>
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
@@ -167,7 +170,7 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label for="form_survey">How did you hear about us?</label>
+                        <label for="form-survey">How did you hear about us?</label>
                         <select id="form_survey" name="survey" class="form-control">
                           <option value="no_choice" selected>Please select one of the below</option>
                           <option value="friend">By word of mouth</option>
@@ -205,10 +208,10 @@
                   </div>
                   <!-- row -->
                   <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4 col">
                       <input type="submit" class="btn btn-send button-light" value="Send message">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4 col">
                       <input type="reset" class="btn btn-reset button-light" value="Reset">
                     </div>
                   </div>
@@ -337,63 +340,65 @@
       </div>
     </section>
 
-
-    <!--Footer-->
-    <footer>
-      <div class="row col-md-12 mfooter">
-        <div class="col-sm-4 footer-nav ">
-          <h4>NAVIGATION</h4>
-          <br>
-          <ul class="list-unstyled">
-            <li>
-              <a href="index.html">HOME</a>
-            </li>
-            <li>
-              <a href="yachts.html">YACHTS</a>
-            </li>
-            <li>
-              <a href="about-us.html">ABOUT</a>
-            </li>
-            <li>
-              <a href="crew.html">CREW</a>
-            </li>
-            <li>
-              <a href="contact-us.html">CONTACT US</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-4 text-md-center">
-          <img src="img/lux-yacht-logo-footer.png" alt="yacht logo">
-          <br>
-          <br>
-          <p>
-            Welcome to the most luxurious selection of hi-end yachts on the market. Feel free to take a tour of our catalogue and make you dreams a reality.
-          </p>
-          <br>
-          <i class="fa fa-facebook fa-2x"></i>
-          <i class="fa fa-twitter fa-2x"></i>
-          <i class="fa fa-instagram fa-2x"></i>
-          <br>
-        </div>
-        <div class="col-sm-4 text-md-center footer-nav">
-          <h4>LOCATION</h4>
-          <img src="img/footer-map.png" alt="yacht logo">
-        </div>
-      </div>
-      <!-- Copyright-->
-      <div class="col-md-12 footer-copyright py-3 text-center mcopyright">
-        © 2018 Copyright:
-        <a href="">
-          <strong> LUXYACHTS</strong>
-        </a>
-      </div>
-      <!--/.Copyright -->
-
-    </footer>
-    <!--/.Footer-->
-
   </div>
   <!-- wrapper -->
+
+
+  <!--Footer-->
+  <footer>
+    <div class="row col-md-12 mfooter">
+      <div class="col-sm-4 footer-nav ">
+        <h4>NAVIGATION</h4>
+        <br>
+        <ul class="list-unstyled">
+          <li>
+            <a href="index.html" style="color:#fff">HOME</a>
+          </li>
+          <li>
+            <a href="yachts.html" style="color:#fff">YACHTS</a>
+          </li>
+          <li>
+            <a href="about-us.html" style="color:#fff">ABOUT</a>
+          </li>
+          <li>
+            <a href="crew.html" style="color:#fff">CREW</a>
+          </li>
+          <li>
+            <a href="contact-us.html" style="color:#fff">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4 text-md-center">
+        <img src="img/lux-yacht-logo-footer.png" alt="yacht logo">
+        <br>
+        <br>
+        <p>
+          Welcome to the most luxurious selection of hi-end yachts on the market. Feel free to take a tour of our catalogue and make you dreams a reality.
+        </p>
+        <br>
+        <a href="#" class="fa fa-facebook fa-2x social-nav"></a>
+        <a href="#" class="fa fa-twitter fa-2x social-nav"></a>
+        <a href="#" class="fa fa-instagram fa-2x social-nav"></a>
+        <br>
+      </div>
+      <div class="col-sm-4 text-md-center footer-nav">
+        <h4>LOCATION</h4>
+        <a href="contact-us.html">
+          <img src="img/footer-map.png" alt="map">
+        </a>
+      </div>
+    </div>
+    <!-- Copyright-->
+    <div class="col-md-12 footer-copyright py-3 text-center mcopyright">
+      © 2018 Copyright:
+      <a href="">
+        <strong> LUXYACHTS</strong>
+      </a>
+    </div>
+    <!--/.Copyright -->
+
+  </footer>
+  <!--/.Footer-->
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

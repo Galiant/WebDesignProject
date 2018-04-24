@@ -18,10 +18,6 @@
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-#contact_page footer img {
-  width: 100%;
-}
-
 /* can also have wider for widescreen - can add in mq.css media query say min-value: 1600px  and value here of 1200px ?? */
 
 /* keeps content contained in smaller area so that easier to read text */
@@ -113,6 +109,62 @@
   padding-left: 0;
 }
 
+/* Top navbar */
+
+.nav-background {
+  background-color: #153054;
+  height: 70px;
+}
+
+.nav-top {
+  width: 100%;
+  height: 45px;
+  background-color: #153054;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.head-room {
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  padding-top: 15px;
+  height: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.yachts-contact {
+  padding: 10px 0;
+}
+
+.social {
+  padding-left: 0;
+}
+
+.fa-inverse {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fa-circle-thin {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.phone {
+  padding-right: 0;
+}
+
+.phone-phone {
+  font-size: 18px;
+  padding-top: 3px;
+  letter-spacing: 0.6pt;
+}
+
 .button-light {
   background: transparent;
   padding: 9px 36px;
@@ -149,4 +201,14 @@
 
 .text-muted {
   padding-top: 20px;
+}
+
+.social-nav {
+  border: solid 0px #fff;
+  width: 11%;
+  color: #fff;
+}
+
+.social-nav:hover {
+  text-decoration: none;
 }
