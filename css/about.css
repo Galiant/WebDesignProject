@@ -13,19 +13,20 @@
 
 #about_page footer img {
   width: 100%;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 #about_page .col-md-12 {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* for footer map */
 
 .dn {
-    display: none;
+  display: none;
 }
 
 /* banner */
@@ -33,16 +34,16 @@
 /* mathew wheeler unsplash */
 
 .about-image {
-   background-image: url("../img/about/matthew-wheeler-816-unsplash-1600.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
-    position: relative;
-    height: 50vh;
-    margin-bottom: 20px;
-	background-color:#153054
+  background-image: url("../img/about/matthew-wheeler-816-unsplash-1600.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  position: relative;
+  height: 50vh;
+  margin-bottom: 20px;
+  background-color: #153054;
 }
 
 #about_page .about-text {
@@ -51,35 +52,25 @@
   left: 50%;
 }
 
-#about_page .about-text button {
-  margin-top: 40px;
-}
-
-#about_page button {
-  margin-top: 40px;
-}
-
 #about_page h1 {
-    margin-bottom: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
+
 #about_page .about-text h1 {
-    text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgb(20, 20, 20);
 }
+
 #about_page .about-text .subheading {
-    font-size: 1.4em;
-    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+  font-size: 1.4em;
+  text-shadow: 2px 2px 4px rgb(20, 20, 20);
 }
-#about_page .about-text button {
-    margin-top: 40px;
-}
-#about_page button {
-    margin-top: 40px;
-}
+
 hr {
-    background-color: rgb(230, 255, 255);
-    border-width: 2px;
-    width: 50%;
+  background-color: rgb(230, 255, 255);
+  border-width: 2px;
+  width: 50%;
 }
 
 .article {
@@ -91,21 +82,20 @@ hr {
 /* sections */
 
 .left-half1 {
-    background-image: url("../img/compass.png");
+  background-image: url("../img/compass.png");
 }
 
 .right-half1 {
-    background-image: url("../img/about/about-above.jpg");
+  background-image: url("../img/about/about-above.jpg");
 }
 
 .left-half2 {
-    background-image: url("../img/about/moonlight-780.jpg");
+  background-image: url("../img/about/moonlight-780.jpg");
 }
 
 .right-half2 {
   background-image: url("../img/compass.png");
 }
-
 
 .left-half1,
 .right-half1,
@@ -128,10 +118,10 @@ hr {
 /* hero  banner */
 
 .hero-image-about {
-    min-height: 400px;
-	background-color:#153054;
-    background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
-    background-attachment: fixed;
+  min-height: 400px;
+  background-color: #153054;
+  background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
+  background-attachment: fixed;
 }
 
 .container {
@@ -140,9 +130,65 @@ hr {
 }
 
 .about-text2 {
-    top: 20%;
+  top: 20%;
 }
 
 .list-unstyled li a {
   color: white;
+}
+
+/* Top navbar */
+
+.nav-background {
+  background-color: #153054;
+  height: 70px;
+}
+
+.nav-top {
+  width: 100%;
+  height: 45px;
+  background-color: #153054;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.head-room {
+  margin-top: 45px;
+}
+
+.menu {
+  padding: 0;
+  padding-top: 15px;
+  height: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.yachts-contact {
+  padding: 10px 0;
+}
+
+.social {
+  padding-left: 0;
+}
+
+.fa-inverse {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.fa-circle-thin {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.phone {
+  padding-right: 0;
+}
+
+.phone-phone {
+  font-size: 18px;
+  padding-top: 3px;
+  letter-spacing: 0.6pt;
 }
