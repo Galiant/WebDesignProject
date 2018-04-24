@@ -13,12 +13,19 @@
 
 #about_page footer img {
   width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#about_page .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* for footer map */
 
 .dn {
-  display: none;
+    display: none;
 }
 
 /* banner */
@@ -26,36 +33,22 @@
 /* mathew wheeler unsplash */
 
 .about-image {
-  background-image: url("../img/about/matthew-wheeler-816-unsplash-1600.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100%;
-  position: relative;
-  height: 60vh;
-  margin-bottom: 20px;
+   background-image: url("../img/about/matthew-wheeler-816-unsplash-1600.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+    height: 50vh;
+    margin-bottom: 20px;
+	background-color:#153054
 }
 
 #about_page .about-text {
   text-align: center;
   top: 60%;
   left: 50%;
-}
-
-#about_page h1 {
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-#about_page .about-text h1 {
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgb(20, 20, 20);
-}
-
-#about_page .about-text .subheading {
-  font-size: 1.4em;
-  text-shadow: 2px 2px 4px rgb(20, 20, 20);
 }
 
 #about_page .about-text button {
@@ -66,10 +59,28 @@
   margin-top: 40px;
 }
 
+#about_page h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#about_page .about-text h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+#about_page .about-text .subheading {
+    font-size: 1.4em;
+    text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+#about_page .about-text button {
+    margin-top: 40px;
+}
+#about_page button {
+    margin-top: 40px;
+}
 hr {
-  background-color: rgb(230, 255, 255);
-  border-width: 2px;
-  width: 50%;
+    background-color: rgb(230, 255, 255);
+    border-width: 2px;
+    width: 50%;
 }
 
 .article {
@@ -81,23 +92,21 @@ hr {
 /* sections */
 
 .left-half1 {
-  background-image: url("../img/compass.png");
+    background-image: url("../img/compass.png");
 }
 
 .right-half1 {
-  background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
-  background-size: 200%;
+    background-image: url("../img/about/about-above.jpg");
 }
 
 .left-half2 {
-  background-image: url("../img/about/moonlight-780.jpg");
-  background-size: 200%;
-  background-position: -100px 0;
+    background-image: url("../img/about/moonlight-780.jpg");
 }
 
 .right-half2 {
   background-image: url("../img/compass.png");
 }
+
 
 .left-half1,
 .right-half1,
@@ -120,9 +129,10 @@ hr {
 /* hero  banner */
 
 .hero-image-about {
-  min-height: 400px;
-  background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
-  background-size: 180%;
+    min-height: 400px;
+	background-color:#153054;
+    background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
+    background-attachment: fixed;
 }
 
 .container {
@@ -131,7 +141,7 @@ hr {
 }
 
 .about-text2 {
-  top: 20%;
+    top: 20%;
 }
 
 .list-unstyled li a {
