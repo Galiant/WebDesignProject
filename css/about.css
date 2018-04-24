@@ -1,14 +1,30 @@
-/* bootstrap fix*/ 
-#about_page .row { margin: 0; padding-left: 0; padding-right: 0;}
-#about_page .col-md-12 { padding-left: 0; padding-right: 0; }
-#about_page footer img { width: 100% ; } /* for footer map */
+/* bootstrap fix*/
+
+#about_page .row {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#about_page .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#about_page footer img {
+  width: 100%;
+}
+
+/* for footer map */
 
 .dn {
   display: none;
 }
 
 /* banner */
+
 /* mathew wheeler unsplash */
+
 .about-image {
   background-image: url("../img/about/matthew-wheeler-816-unsplash-1600.jpg");
   background-attachment: fixed;
@@ -20,82 +36,99 @@
   height: 60vh;
   margin-bottom: 20px;
 }
+
 #about_page .about-text {
   text-align: center;
   top: 60%;
   left: 50%;
-}  
+}
+
 #about_page h1 {
   text-transform: uppercase;
   margin-bottom: 30px;
-} 
+}
+
 #about_page .about-text h1 {
   text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgb(20,20,20);
-}  
+  text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+
 #about_page .about-text .subheading {
   font-size: 1.4em;
-  text-shadow: 2px 2px 4px rgb(20,20,20);
-}  
+  text-shadow: 2px 2px 4px rgb(20, 20, 20);
+}
+
 #about_page .about-text button {
   margin-top: 40px;
-}  
+}
+
 #about_page button {
   margin-top: 40px;
-} 
-hr { 
-  background-color: rgb(230,255,255);
+}
+
+hr {
+  background-color: rgb(230, 255, 255);
   border-width: 2px;
   width: 50%;
 }
+
 .article {
-	position: relative;
-	top: 20%;
-	text-align: center;
+  position: relative;
+  top: 20%;
+  text-align: center;
 }
 
-
 /* sections */
+
 .left-half1 {
   background-image: url("../img/compass.png");
 }
+
 .right-half1 {
   background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
   background-size: 200%;
 }
+
 .left-half2 {
   background-image: url("../img/about/moonlight-780.jpg");
   background-size: 200%;
   background-position: -100px 0;
 }
+
 .right-half2 {
-  background-image: url("../img/compass.png");  
+  background-image: url("../img/compass.png");
 }
-.left-half1, 
+
+.left-half1,
 .right-half1,
 .left-half2,
 .right-half2 {
-  height:680px;
+  height: 680px;
   padding: 10%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-color: #ffffff;
   margin-top: 0;
 }
-.left-half1, 
+
+.left-half1,
 .right-half1,
 .left-half2,
 .right-half2 p {
-   text-shadow: 1px 1px 2px rgb(200,200,200);
+  text-shadow: 1px 1px 2px rgb(200, 200, 200);
 }
 
-
 /* hero  banner */
-.hero-image-about { 
+
+.hero-image-about {
   min-height: 400px;
   background-image: url("../img/about/about-what-we-do-unsplash-780.jpg");
   background-size: 180%;
 }
+
 .about-text2 {
   top: 20%;
 }
 
+.list-unstyled li a {
+  color: white;
+}

@@ -135,3 +135,7 @@
 .btn:disabled {
   opacity: 1;
 }
+
+.list-unstyled li a {
+  color: white;
+}
